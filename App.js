@@ -1,5 +1,4 @@
-// React Native Navigation Drawer
-// https://aboutreact.com/react-native-navigation-drawer/
+
 import 'react-native-gesture-handler';
 
 import * as React from 'react';
@@ -56,18 +55,18 @@ function firstScreenStack({ navigation }) {
           name="FirstPage"
           component={FirstPage}
           options={{
-            title: 'Main Page', //Set Header Title
+            title: 'Main Page', 
             headerRight: ()=>
               <NavigationDrawerStructure
                 navigationProps={navigation}
               />,
             headerStyle: {
-              backgroundColor: '#000066', //Set Header color
+              backgroundColor: '#000066', 
             },
             headerTitleAlign: "center",
-            headerTintColor: '#fff', //Set Header text color
+            headerTintColor: '#fff', 
             headerTitleStyle: {
-              fontWeight: 'bold', //Set Header text style
+              fontWeight: 'bold', 
             },
           }}
         />
@@ -85,19 +84,19 @@ function secondScreenStack({ navigation }) {
             navigationProps={navigation}
           />,
         headerStyle: {
-          backgroundColor: '#000066', //Set Header color
+          backgroundColor: '#000066', 
         },
         headerTitleAlign: "center",
-        headerTintColor: '#fff', //Set Header text color
+        headerTintColor: '#fff', 
         headerTitleStyle: {
-          fontWeight: 'bold', //Set Header text style
+          fontWeight: 'bold', 
         }
       }}>
       <Stack.Screen
         name="SecondPage"
         component={SecondPage}
         options={{
-          title: 'WebPage', //Set Header Title
+          title: 'WebPage', 
           
         }}/>
      
@@ -116,19 +115,19 @@ function ThirdScreenStack({ navigation }) {
         //     navigationProps={navigation}
         //   />,
         headerStyle: {
-          backgroundColor: '#000066', //Set Header color
+          backgroundColor: '#000066', 
         },
         headerTitleAlign: "center",
-        headerTintColor: '#fff', //Set Header text color
+        headerTintColor: '#fff', 
         headerTitleStyle: {
-          fontWeight: 'bold', //Set Header text style
+          fontWeight: 'bold', 
         }
       }}>
       <Stack.Screen
         name="ThirdPage"
         component={ThirdPage}
         options={{
-          title: 'Description', //Set Header Title
+          title: 'Description', 
           
         }}/>
 
@@ -149,12 +148,12 @@ function FourthScreenStack({ navigation }) {
         //     navigationProps={navigation}
         //   />,
         headerStyle: {
-          backgroundColor: '#000066', //Set Header color
+          backgroundColor: '#000066', 
         },
         headerTitleAlign: "center",
-        headerTintColor: '#fff', //Set Header text color
+        headerTintColor: '#fff', 
         headerTitleStyle: {
-          fontWeight: 'bold', //Set Header text style
+          fontWeight: 'bold', 
         }
       }}>
      
@@ -162,7 +161,7 @@ function FourthScreenStack({ navigation }) {
         name="FourthPage"
         component={FourthPage}
         options={{
-          title: 'ImageBackground N1', //Set Header Title
+          title: 'ImageBackground N1', 
           
         }}/>
 
@@ -185,12 +184,12 @@ function FifthScreenStack({ navigation }) {
         //     navigationProps={navigation}
         //   />,
         headerStyle: {
-          backgroundColor: '#000066', //Set Header color
+          backgroundColor: '#000066', 
         },
         headerTitleAlign: "center",
-        headerTintColor: '#fff', //Set Header text color
+        headerTintColor: '#fff', 
         headerTitleStyle: {
-          fontWeight: 'bold', //Set Header text style
+          fontWeight: 'bold', 
         }
       }}>
      
@@ -198,7 +197,7 @@ function FifthScreenStack({ navigation }) {
         name="FifthPage"
         component={FifthPage}
         options={{
-          title: 'ImageBackground N2', //Set Header Title
+          title: 'ImageBackground N2', 
           
         }}/>
 
@@ -221,12 +220,12 @@ function SixthScreenStack({ navigation }) {
         //     navigationProps={navigation}
         //   />,
         headerStyle: {
-          backgroundColor: '#000066', //Set Header color
+          backgroundColor: '#000066', 
         },
         headerTitleAlign: "center",
-        headerTintColor: '#fff', //Set Header text color
+        headerTintColor: '#fff', 
         headerTitleStyle: {
-          fontWeight: 'bold', //Set Header text style
+          fontWeight: 'bold', 
         }
       }}>
      
@@ -234,7 +233,7 @@ function SixthScreenStack({ navigation }) {
         name="SixthPage"
         component={SixthPage}
         options={{
-          title: 'ImageBackground N3', //Set Header Title
+          title: 'ImageBackground N3', 
           
         }}/>
 
@@ -243,27 +242,6 @@ function SixthScreenStack({ navigation }) {
     </Stack.Navigator>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
